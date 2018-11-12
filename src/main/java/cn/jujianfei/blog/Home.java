@@ -4,7 +4,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * @author Thinkpad
+ * @author JuJianFei
  * @date 2018/11/6
  */
 @RestController
@@ -14,4 +14,5 @@ public class Home {
     public String index(){
         return "Hello Friend, I am jujianfei.";
     }
+
 }
